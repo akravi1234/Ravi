@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment Form</title>
+    <style>
+        h1{
+            background-color: burlywood;
+            text-align: center;
+        }
+        form{
+            text-align: center;
+            position: absolute;
+            background-color: rgb(151, 159, 36);
+            width:450px;
+            left:35%;
+        }
+        #submit{
+            text-align: center;
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>COURSE ENROLLMENT FORM</h1>
+    <FORM>
+        <fieldset>
+        <legend>Enrollment Form</legend>
+        <label for="name"> Student Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="rollno">Student Roll No:</label>
+        <input type="text" id="rollno" name="roll no" required><br><br>
+        <label for="mail">Student mail: </label>
+        <input type="text" id="mail" name="mail" required><br><br>
+        <h3>Select your courses</h3>
+        <label for="Course">Web Technologies</label>
+        <input type="checkbox" id="Course" name="Course"><br><br>
+        <label for="Course">Data Mining</label>
+        <input type="checkbox" id="Course" name="Course"><br><br>
+        <label for="Course">Machine Learning</label>
+        <input type="checkbox" id="Course" name="Course"><br><br>
+        <label for="Course">Competitive Programming</label>
+        <input type="checkbox" id="Course" name="Course"><br><br>
+        <h3>Mode of Study</h3>
+        <label for="Mode">Online</label>
+        <input type="radio" id="Study" name="Study"><br><br>
+        <label for="Mode">Offline</label>
+        <input type="radio" id="Study" name="Study"><br><br>
+        <label for="Mode">Hybrid</label>
+        <input type="radio" id="Study" name="Study"><br><br>
+        <input type="submit" value="Submit" id="submit">
+        </fieldset>
+    </FORM>
+    
+</body>
+</html>
